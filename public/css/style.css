@@ -1,0 +1,39 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body,
+html {
+	height: 100%;
+	font-family: "San Francisco Display", "Avenir", helvetica, sans-serif;
+	color: #333;
+
+}
+
+a {
+	color: #fff;
+}
+
+.screenshot {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	right: 20px;
+	bottom: 20px;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url(../images/frame.png);
+}
+
+.download {
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+}
+
+.download img {
+	width: 160px;
+}
